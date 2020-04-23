@@ -1,0 +1,64 @@
+body {
+  background-color: #343434;
+  color: antiquewhite;
+  opacity: 0.9;
+  animation: fadeIn 0.5s linear;
+}
+
+.clockHeart {
+  position: relative;
+  color: #f3deba;
+  font-size: 80px;
+  font-weight: bold;
+  top: 50%;
+  text-align: center;
+}
+
+.clockDay {
+  position: relative;
+  color: #b3b3e1;
+  font-size: 23px;
+  font-weight: bold;
+  opacity: 0.7;
+  top: 2%;
+  text-align: center;
+}
+
+.helloform,
+.hellojs {
+  position: relative;
+  color: aliceblue;
+  font-size: 20px;
+  top: 4%;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.js-todoform {
+  position: relative;
+  text-align: center;
+  top: 4%;
+}
+.js-todolist {
+  position: fixed;
+  font-size: 20px;
+  top: 45%;
+  left: 35%;
+}
+
+.form,
+.hello {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
